@@ -11,9 +11,13 @@ coverage run -a --omit "venv/*" -m pandasio.utils.tests.test_datetime_utils
 coverage run -a --omit "venv/*" -m pandasio.utils.tests.test_numpy_compression
 coverage run -a --omit "venv/*" -m pandasio.utils.tests.test_numpy_decompression
 coverage run -a --omit "venv/*" -m pandasio.utils.tests.test_numpy_float_compression
+coverage run -a --omit "venv/*" -m pandasio.utils.tests.test_numpy_float_rounding
 coverage run -a --omit "venv/*" -m pandasio.utils.tests.test_numpy_utils
 coverage run -a --omit "venv/*" -m pandasio.utils.tests.test_pandas_utils
 coverage run -a --omit "venv/*" -m pandasio.utils.tests.test_validation
+
+coverage run -a --omit "venv/*" -m pandasio.tests.test_pandabar
+coverage run -a --omit "venv/*" -m pandasio.tests.test_pandabar_details_bytes
 
 report_coverage=false
 include_missing=false

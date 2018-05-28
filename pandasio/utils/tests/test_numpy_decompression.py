@@ -1,5 +1,5 @@
 from pandasio.utils.exceptions import *
-from pandasio.utils.numpy_utils import compress_array, decompress_array
+from pandasio.utils.numpy_compression import compress_array, decompress_array
 import unittest
 import numpy as np
 

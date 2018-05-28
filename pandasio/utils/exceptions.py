@@ -40,3 +40,11 @@ class InvalidPandasIndexError(ValueError):
 
 class InvalidPandasDataTypeError(TypeError):
     pass
+
+
+class DataSizeNotPositiveError(ValueError):
+    pass
+
+
+class NumBytesForStringInvalidError(ValueError):
+    pass

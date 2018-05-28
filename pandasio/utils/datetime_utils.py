@@ -66,7 +66,8 @@ def get_more_granular_units(from_units: str) -> str:
     try:
         return units_by_order[from_units_data.order - 1]
     except KeyError:
-        raise DateUnitsGranularityError('Could not get more granular units from {}, it is the most granular unit'.format(from_units))
+        raise DateUnitsGranularityError('Could not get more granular units from '
+                                        '{}, it is the most granular unit'.format(from_units))
 
 
 def get_less_granular_units(from_units: str) -> str:

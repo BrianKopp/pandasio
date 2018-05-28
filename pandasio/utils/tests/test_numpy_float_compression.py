@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from pandasio.utils.numpy_utils import compress_float_array
+from pandasio.utils.numpy_compression import compress_float_array
 from pandasio.utils.exceptions import *
 
 
